@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: grid;
+  width: 200px;
+  height: 200px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0;
+  border: 1px solid black; /* Optional: just to visualize the container */
+}
+
+.item {
+  /* No specific changes as per instructions */
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #999;
+}
+
